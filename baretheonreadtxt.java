@@ -27,8 +27,8 @@ public class  {
             e.printStackTree();
         }
 class Person {
-    private String name;
-    private String gender;
+    protected String name;
+    protected String gender;
 
     public Person(String name, String gender) {
         this.name = name;
